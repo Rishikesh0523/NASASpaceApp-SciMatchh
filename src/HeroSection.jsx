@@ -10,7 +10,7 @@ const HeroSection = () => {
         <section id="hero" class="pb-24 bg-gradient-to-r from-gradient_one to-gradient_two">
             {/* <!-- Flex Container --> */}
             <div
-                class="flex p-48 items-center mx-auto pt-5 pb-24"
+                class="flex p-48 items-center mx-auto pt-5 pb-24 w-[1750px]"
             >
                 <div class="flex flex-col space-y-12 w-1/2">
                     <h1

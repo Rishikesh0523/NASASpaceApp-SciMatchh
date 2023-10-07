@@ -2,14 +2,12 @@ import logo from "./assets/SCIMATCH/icons-svg/logow.png";
 import Login from './Login.jsx'
 import Register from './Register.jsx'
 import { useState } from "react";
-
 export default function Header() {
     const [toggle, setToggle] = useState(1)
 
     function updateToggle(id) {
         setToggle(id)
     }
-
     return (
         <div>
 
@@ -45,7 +43,7 @@ export default function Header() {
                         </a>
                         <a
                             href="#"
-                            class="text-[1.5rem] p-3 px-12 pt-2 text-white bg-button_color rounded-full baseline hover:bg-button_color_hover block" onClick={()=>updateToggle(2)}
+                            class="text-[1.5rem] p-3 px-12 pt-2 text-white bg-button_color rounded-full baseline hover:bg-button_color_hover block" onClick={()=>{updateToggle(2);tog=1}}
                         >
                             Log In
                         </a>
@@ -55,10 +53,10 @@ export default function Header() {
 
             </nav>
             <div className={toggle === 2 ? "fixed" : "hidden"}>
-                <Login />
+                <Login naam={updateToggle}/>
             </div>
             <div className={toggle === 3 ? "w-full backdrop-blur-md h-screen fixed" : "hidden"}>
-                <Register />
+                <Register naam={updateToggle} />
             </div>
         </div>
     );

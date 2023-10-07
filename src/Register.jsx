@@ -1,8 +1,11 @@
-const Register = () => {
+const Register = (props) => {
     return (
         <div className="flex w-full mx-auto justify-center align-center items-center p-12">
             <div className="w-[32rem] rounded-3xl p-12 shadow-md border-2 bg-white">
+                <div className="flex">
                 <h1 className="font-bold text-[30px] w-full text-center">Create a new account</h1>
+                <p className="justify-end cursor-pointer " onClick={()=>{props.naam(1)}}>X</p>
+                </div>
                 <br />
                 <br />
                 <p>
@@ -38,7 +41,7 @@ const Register = () => {
                     </div>
                 </a>
                 <br />
-                <p>Already a member?<a href="#"> Log In </a></p>
+                <p>Already a member?<a className="cursor-pointer" onClick={()=>{props.naam(2)}}> Log In </a></p>
             </div>
         </div>
     )
