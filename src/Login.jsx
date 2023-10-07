@@ -1,5 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 export default function Login(props) {
+    const[formdata, setformdata] = 
+    useState(
+    {
+        email :'',
+        password : ''
+    })
     return (
         
         <div className="fixed w-full h-screen backdrop-blur-md">
