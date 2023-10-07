@@ -47,12 +47,12 @@ const Register = (props) => {
                 <br />
                 <a
                     href="#"
-                    class="text-center p-3 px-6 mx-6 pt-2 text-white bg-darkBlue rounded-xl hover:bg-darkGrayishBlue block"
+                    class="text-center p-3 px-6 mx-6 pt-2 text-white bg-gradient-to-r from-box_gradient_one via-box_gradient_two to-box_gradient_three rounded-xl hover:bg-gradient-to-r hover:from-gray-400 hover:to-gray-400 block"
                 >
                     Sign Up
                 </a>
                 <br />
-                <p>Already a member?<a className="cursor-pointer" onClick={()=>{props.naam(2)}}> Log In </a></p>
+                <p>Already a member?<a className="cursor-pointer font-bold text-blue-600" onClick={()=>{props.naam(2)}}> Log In </a></p>
             </div>
         </div>
     )
