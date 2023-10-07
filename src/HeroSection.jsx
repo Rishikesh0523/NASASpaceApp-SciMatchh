@@ -4,7 +4,7 @@ import innovation from "./assets/SCIMATCH/icons-svg/Innovation.svg"
 import connect from "./assets/SCIMATCH/icons-svg/connecting.svg"
 import research from "./assets/SCIMATCH/icons-svg/research.svg"
 
-export default function HeroSection() {
+const HeroSection = () => {
     return (
         // <!-- Hero Section -->
         <section id="hero" class="pb-24 bg-gradient-to-r from-gradient_one to-gradient_two">
@@ -41,3 +41,5 @@ export default function HeroSection() {
         </section>
     )
 }
+
+export default HeroSection

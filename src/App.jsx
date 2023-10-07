@@ -5,6 +5,7 @@ import Profile from './Profile.jsx'
 import Header from './Header'
 import NewProject from './NewProject.jsx'
 import HeroSection from './HeroSection.jsx'
+import Login from './Login.jsx'
 import './App.css'
 
 function App() {
@@ -12,8 +13,9 @@ function App() {
     <>
       <Header />
       <HeroSection />
-      <Profile />
-      <NewProject />
+      {/* <Login /> */}
+      {/* <Profile /> */}
+      {/* <NewProject /> */}
     </>
   )
 }
