@@ -28,22 +28,15 @@ export default function Login(props) {
 
                         <label for="email">
                             <p className="font-medium text-slate-700 pb-2">Email address</p>
-                            <input id="email" name="email" type="email" className="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow" placeholder="Enter email address" />
+                            <input id="email" name="email" type="email" value={email} className="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow" placeholder="Enter email address" />
                         </label>
 
                         <label for="password">
                             <p className="font-medium text-slate-700 pb-2">Password</p>
-                            <input id="password" name="password" type="password" className="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow" placeholder="Enter your password" />
+                            <input id="password" name="password" type="password" value={password} className="w-full py-3 border border-slate-200 rounded-lg px-3 focus:outline-none focus:border-slate-500 hover:shadow" placeholder="Enter your password" />
                         </label>
 
                         <div className="flex flex-row justify-between">
-                            <div>
-                                <label for="remember" className="flex">
-                                    <input type="checkbox" id="remember" className="mr-2 mt-1 w-4 h-4 border-slate-200 focus:bg-indigo-600" />
-                                    <span>Remember me</span>
-
-                                </label>
-                            </div>
                             <div>
                                 <a href="#" className="font-medium text-indigo-600">Forgot Password?</a>
                             </div>
