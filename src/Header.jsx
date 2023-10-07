@@ -10,8 +10,7 @@ export default function Header() {
     }
     return (
         <div>
-
-            <nav class="bg-head_background w-full  p-6 h-28">
+            <nav class="bg-head_background w-full  p-3 h-20">
                 {/* <!-- Flex container --> */}
                 <div class="flex content-end items-center mx-auto justify-between w-[1400px]">
                     {/* <!-- Logo --> */}

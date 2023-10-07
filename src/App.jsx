@@ -7,15 +7,17 @@ import NewProject from './NewProject.jsx'
 import HeroSection from './HeroSection.jsx'
 import Login from './Login.jsx'
 import Resources from './Resources.jsx'
+import Setup1 from './setup1.jsx'
 import './App.css'
 
 function App() {
   return (
     <>
       <Header />
+      <Setup1 />
       {/* <Resources /> */}
-      <HeroSection />
-      <Login />
+      {/* <HeroSection /> */}
+      {/* <Login /> */}
       {/* <Profile /> */}
       {/* <NewProject /> */}
     </>

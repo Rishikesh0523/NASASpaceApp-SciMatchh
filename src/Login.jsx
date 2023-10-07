@@ -6,6 +6,7 @@ export default function Login(props) {
         email :'',
         password : ''
     })
+    const{email,password} = formdata
     return (
         
         <div className="fixed w-full h-screen backdrop-blur-md">
