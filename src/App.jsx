@@ -9,13 +9,15 @@ import Login from './Login.jsx'
 import Resources from './Resources.jsx'
 import Setup1 from './setup1.jsx'
 import News from './News.jsx'
+import Browse from './Browse.jsx'
 import './App.css'
 
 function App() {
   return (
     <>
       <Header />
-      <News />
+      <Browse />
+      {/* <News /> */}
       {/* <Setup1 /> */}
       {/* <Resources /> */}
       {/* <HeroSection /> */}
