@@ -8,6 +8,7 @@ import HeroSection from './HeroSection.jsx'
 import Login from './Login.jsx'
 import Resources from './Resources.jsx'
 import Setup1 from './setup1.jsx'
+import Setup4 from './setup4.jsx'
 import News from './News.jsx'
 import Browse from './Browse.jsx'
 import './App.css'
@@ -16,9 +17,9 @@ function App() {
   return (
     <>
       <Header />
-      <Browse />
+      {/* <Browse /> */}
       {/* <News /> */}
-      {/* <Setup1 /> */}
+      <Setup4 />
       {/* <Resources /> */}
       {/* <HeroSection /> */}
       {/* <Login /> */}
