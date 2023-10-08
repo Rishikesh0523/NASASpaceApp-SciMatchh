@@ -35,6 +35,10 @@ const setup3 = () => {
                 <div className="flex justify-between p-3 py-1" >
                     <textarea value={bio} name="bio" onChange={onChange} className="border-2 w-full h-[14rem] resize-none rounded-2xl p-2 pt-4 px-4 text-[1.5rem] border-darkBlue" />
                 </div>
+                <div className="flex justify-between">
+                    <span className="text-[1.5rem]">Skip</span>
+                    <span className="text-[1.5rem] rounded-3xl bg-darkBlue w-20 text-center text-white ">Next</span>
+                </div>
                 <br />
             </div>
         </div>

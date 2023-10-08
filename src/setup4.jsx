@@ -51,6 +51,10 @@ const setup4 = () => {
                         {countrySelectEl}
                     </select>
                 </div>
+                <div className="flex justify-between">
+                    <span className="text-[1.5rem]">Skip</span>
+                    <span className="text-[1.5rem] rounded-3xl bg-darkBlue w-20 text-center text-white ">Next</span>
+                </div>
                 <br />
             </div>
         </div>
